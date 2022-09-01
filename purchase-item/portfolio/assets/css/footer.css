@@ -1,0 +1,29 @@
+/* ---------------------------------------------------
+ #footer
+------------------------------------------------------ */
+
+.footer-box {
+    max-width: 30%;
+}
+
+.footer-title {
+    font-size: 1.1875rem;
+}
+
+.links-wrapper li a {
+    padding: 0.5rem 0;
+    border-bottom: 0.25rem solid #222;
+}
+
+.links-wrapper li a:hover {
+    text-indent: 1rem;
+    color: #0dbf07;
+    border-color: #0dbf07;
+}
+
+@media (max-width: 991.98px) { 
+	.footer-box {
+	    max-width: 100%;
+	    width: 100%;
+	}
+}

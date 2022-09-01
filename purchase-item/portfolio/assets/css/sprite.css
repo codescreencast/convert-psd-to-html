@@ -1,0 +1,9 @@
+.sprite { 
+	background: url('../img/sprite.png') no-repeat top left; 
+	width: 24px; 
+	height: 24px;
+	display: block;
+} 
+.sprite.mail { background-position: 0 0; } 
+.sprite.phone { background-position: 0 -39px; } 
+.sprite.map { background-position: 0 -78px; width: 18px; } 

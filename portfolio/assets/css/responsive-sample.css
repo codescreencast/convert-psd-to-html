@@ -1,0 +1,102 @@
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+
+/*extra-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+
+ /*extra-extra-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*extra-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { ... }
+
+ /*medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*extra-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {  }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+
+@media (min-width: 1400px) {  }
+
+
+
+

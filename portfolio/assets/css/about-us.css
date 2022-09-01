@@ -1,0 +1,25 @@
+/* ---------------------------------------------------
+ #About 
+------------------------------------------------------ */
+.content-wrapper {
+    border-bottom: 0.25rem solid #0dbf07;
+}
+
+.content {
+    font-size: 1.2rem;
+}
+@media (max-width: 991.98px) { 
+    .about-image-wrapper, .content-wrapper {
+        width: 100%;
+    }
+
+    .about-image-wrapper {
+        margin-right: 0;
+        line-height: 0;
+    }
+
+    #about .container {
+        max-width: 40rem;
+        flex-flow: column;
+    }
+}

@@ -1,0 +1,23 @@
+/* ---------------------------------------------------
+ #embed font
+------------------------------------------------------ */
+@font-face {
+    font-family: 'pyidaungsu-bold';
+    src: url('../fonts/pyidaungsu/pyidaungsu-bold-webfont.woff2') format('woff2'),
+         url('../fonts/pyidaungsu/pyidaungsu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'pyidaungsu-regular';
+    src: url('../fonts/pyidaungsu/pyidaungsu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/pyidaungsu/pyidaungsu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

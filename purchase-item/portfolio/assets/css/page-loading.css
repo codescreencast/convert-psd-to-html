@@ -1,0 +1,28 @@
+/* ---------------------------------------------------
+ #Page Loading
+------------------------------------------------------ */
+.page-loading {
+    background: #def3dc;
+    height: 100%;
+    bottom: 0;
+}
+.page-loading img {
+    animation-name:  rotatescale;
+    animation-duration:  4s;
+    animation-iteration-count:  infinite;
+    transform: rotate(0deg) scale(1);
+}
+@keyframes rotatescale {
+    30% { 
+        transform: rotate(120deg) scale(0.3);
+    }
+    50% { 
+        transform: rotate(240deg) scale(0.5);
+    }
+    100% { 
+        transform: rotate(360deg) scale(1);
+    }
+}
+.hide-page-loading .page-loading {
+    bottom: -100%;
+}

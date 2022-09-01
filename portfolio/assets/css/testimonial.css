@@ -1,0 +1,21 @@
+/* ---------------------------------------------------
+ #Testimonial
+------------------------------------------------------ */
+.testimonial-box {
+    border-bottom: 0.3rem solid transparent;
+    transform: scale(1) rotate(0deg);
+}
+
+.testimonial-info img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.user-info .title {
+    margin: 0.6rem 0 0 0;
+}
+
+.testimonial-box:hover {
+    border-bottom-color: #0dbf07;
+    transform: scale(1.1) rotate(5deg);
+}

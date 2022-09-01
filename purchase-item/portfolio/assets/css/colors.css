@@ -1,0 +1,27 @@
+/* ---------------------------------------------------
+ #colors
+------------------------------------------------------ */
+a,
+.nav li:hover > a,
+.portfolio-box:hover > .title > a,
+.links-wrapper li a:hover {
+    color: #1a7def;
+}
+/* ---------------------------------------------------
+ #border color
+------------------------------------------------------ */
+.content-wrapper,
+.testimonial-box:hover,
+.form-control:focus,
+.links-wrapper li a:hover {
+	border-color: #1a7def;
+}
+
+/* ---------------------------------------------------
+ #Background color
+------------------------------------------------------ */
+.bg-primary, 
+.btn.btn-primary {
+	background-color: #1a7def;
+}
+

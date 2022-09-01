@@ -1,0 +1,21 @@
+/* ---------------------------------------------------
+ #Scroll Top
+------------------------------------------------------ */
+#scroll-top {
+    width: 4rem;
+    height: 4rem;
+    top: 50%;
+    right: -5rem;
+    animation: shakeup 4s ease-in 0s infinite;
+    transform: rotate(360deg) scale(0.5);
+}
+.show-scroll-top #scroll-top {
+	right: 1rem;
+	transform: rotate(0deg) scale(1.1);
+}
+
+@keyframes shakeup {
+	30% { top: 60% }
+	50% { top: 55% }
+	100% { top: 50% }
+}

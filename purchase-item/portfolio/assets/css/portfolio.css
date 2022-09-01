@@ -1,0 +1,24 @@
+/* ---------------------------------------------------
+ #Portfolio
+------------------------------------------------------ */
+.portfolio-box {
+    max-width: 31.1%;
+}
+
+.portfolio-box:hover > a > img {
+    transform: scale(0.9);
+}
+.portfolio-box:hover > .title > a {
+    transform: scale(0.9);
+    color: #0dbf07;
+}
+@media (max-width: 767.98px) { 
+	.portfolio-box {
+	    max-width: 48.5%;
+	}
+}
+@media (max-width: 575.98px) {
+	.portfolio-box {
+	    max-width: 100%;
+	}
+}

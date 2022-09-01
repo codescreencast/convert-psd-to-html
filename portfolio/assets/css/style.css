@@ -1,0 +1,18 @@
+@import "global.css";
+@import "common.css";
+@import "header.css";
+@import "banner.css";
+@import "about-us.css";
+@import "portfolio.css";
+@import "testimonial.css";
+@import "contact.css";
+@import "footer.css";
+@import "sprite.css";
+@import "scroll-top.css";
+@import "page-loading.css";
+/* ---------------------------------------------------
+ You can use colors.css when you need to customize 
+ theme colors
+------------------------------------------------------ */
+/*@import "colors.css";*/
+

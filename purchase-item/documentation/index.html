@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Documentation For Portfolio</title>
+	<style type="text/css">
+		body {
+		    margin: 0;
+		    padding: 0;
+		}
+		* {
+		    box-sizing: border-box;
+		}
+
+		#sidebar {
+		    position: fixed;
+		    background: #1a7def;
+		    top: 0;
+		    left: 0;
+		    width: 250px;
+		    height: 100%;
+		}
+
+		#page-content {
+		    padding-left: 300px;
+		    font-size: 20px;
+		}
+		#page-content section {
+		    padding: 150px 0;
+		    border-bottom: 3px solid #222;
+		}
+		#sidebar ul {
+		    list-style-type: none;
+		    margin: 50px 0;
+		    padding: 0;
+		}
+
+		#sidebar ul li a {
+		    color: #fff;
+		    text-decoration: none;
+		    display: block;
+		    padding: 12px 15px;
+		    border-bottom: 1px solid #222;
+		}		
+	</style>
+</head>
+<body>
+	<!-- sidebar start -->
+	<div id="sidebar">
+		<ul>
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#customize-color">Customize Color</a></li>
+			<li><a href="#customize-font">Customize Fonts</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#custom-css">Custom CSS</a></li>
+		</ul>
+	</div>
+	<!-- sidebar end -->
+
+	<!-- page-content start -->
+	<div id="page-content">
+		<!-- introduction start -->
+		<section id="introduction">
+			<h3 class="title">Introduction</h3>
+			<div class="content">
+				After you have bought the purchase, please extract zip file, you would get
+				<ul>
+					<li>documentation folder</li>
+					<li>portfolio folder</li>
+				</ul>
+				Open portfolio folder and replace images with your requirement. And you could upload all those files from portfolio folder to server. That's all for simple setup.
+			</div>
+		</section>
+		<!-- introduction end -->
+
+
+		<!-- customize-color start -->
+		<section id="customize-color">
+			<h3 class="title">Customize Color</h3>
+			<div class="content">
+				To customize something from template, you would need to install code editor or you could use default application from your operating system.
+				<ul>
+					<li>Notepad ( Window )</li>
+					<li>Gedit ( Linux )</li>
+					<li>TextEdit ( Mac )</li>
+				</ul>
+				But, we recommend to use one of these code editors.
+				<ul>
+					<li>Atom</li>
+					<li>Sublime Text (trial version)</li>
+					<li>Notepad++</li>
+					<li>Bracket</li>
+					<li>Visual Code Editor</li>
+				</ul>
+				To customize color, open style.css file from assets -> css and uncomment colors.css import file and you could add your custom color in colors.css (assets->css->colors.css) file. We also create blue custom color (#1a7def). So, you would only need to edit that color code with your one.
+			</div>
+		</section>
+		<!-- customize-color end -->
+
+		<!-- customize-font start -->
+		<section id="customize-font">
+			<h3 class="title">Customize Font</h3>
+			<div class="content">
+				We use google fonts. Below are the fonts we use
+				<ul>
+					<li>Oswald ( <a target="_blank" href="https://fonts.google.com/specimen/Oswald?query=Oswald">https://fonts.google.com/specimen/Oswald?query=Oswald</a> )</li>
+					<li>Source Sans Pro ( <a target="_blank" href="https://fonts.google.com/specimen/Source+Sans+Pro?query=Source">https://fonts.google.com/specimen/Source+Sans+Pro?query=Source</a> )</li>
+				</ul>
+				You could add your custom fonts in global.css ( assets/css/global.css ) file. Don't forget to edit Link tags of google font embeded.
+			</div>
+		</section>
+		<!-- customize-font end -->
+
+
+		<!-- images start -->
+		<section id="images">
+			<h3 class="title">Images</h3>
+			<div class="content">
+				We use demo image from unsplash website ( <a target="_blank" href="https://unsplash.com/">https://unsplash.com/</a> ). Image sizes we use in the template 
+				<ul>
+					<li>Banner Image - 1519x650</li>
+					<li>About Us Image - 554x373</li>
+					<li>Portfolio Image - 325x216</li>
+					<li>Testimonial Image - 64x64</li>
+				</ul>
+				If you change your custom image size, don't forget to check design layout break.
+			</div>
+		</section>
+		<!-- images end -->
+
+		<!-- javascript start -->
+		<section id="javascript">
+			<h3 class="title">JavaScript</h3>
+			<div class="content">
+				We use swiperjs ( <a target="_blank" href="https://swiperjs.com/">https://swiperjs.com/</a> ) for banner and testimonial animation. You could also add your custom javascript in app.js ( assets/js/app.js )
+			</div>
+		</section>
+		<!-- javascript end -->
+
+
+		<!-- custom-css start -->
+		<section id="custom-css">
+			<h3 class="title">Custom CSS</h3>
+			<div class="content">
+				We would recommend to create your own CSS file to customize CSS and import that file in style.css. If so, you would get no conflict for future updates. But, if you don't need update anymore, you could direct edit into any CSS file depending on your requirement. Please note, we have already add most of common CSS property in common.css file ( assets/css/common.css). So, you could use those common classes in your HTML.
+			</div>
+		</section>
+		<!-- custom-css end -->
+
+	</div>
+	<!-- page-content end -->
+</body>
+</html>
